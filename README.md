@@ -1,6 +1,6 @@
 # WareFlow - QA Automation Framework
 
-**Author:** WareFlow QA
+**Author:** ManhHuy
 
 ---
 
@@ -653,6 +653,6 @@ git push origin main
 
 # Author
 
-WareFlow QA
+ManhHuy
 
 DevOps - Quản lý kho Automation Project
