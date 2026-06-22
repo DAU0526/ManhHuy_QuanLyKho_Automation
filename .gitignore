@@ -1,0 +1,12 @@
+venv/
+.venv/
+results/
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+*.png
+__pycache__/
+*.pyc
+.vscode/
+.idea/

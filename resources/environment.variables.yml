@@ -1,0 +1,27 @@
+# Biến môi trường & tài khoản kiểm thử cho WareFlow.
+# Robot nạp file này qua `Variables` trong common_keywords.resource.
+# Ghi đè khi chạy bằng: robot -v HEADLESS:False ... hoặc --variablefile <file khác>
+
+BASE_URL: https://wm.huy-vu.uk
+BROWSER: chrome
+HEADLESS: true
+TIMEOUT: "15s"
+SHORT_TIMEOUT: "5s"
+
+# Tài khoản đã seed sẵn (mật khẩu để chuỗi để không bị hiểu thành số)
+ADMIN_EMAIL: admin@wareflow.com
+ADMIN_PASSWORD: "123456789"
+
+STAFF_EMAIL: staff@wareflow.com
+STAFF_PASSWORD: "123456789"
+
+ACCOUNTANT_EMAIL: accountant@wareflow.com
+ACCOUNTANT_PASSWORD: "123456789"
+
+DISABLED_EMAIL: disabled@wareflow.com
+DISABLED_PASSWORD: "123456789"
+
+# Nhãn vai trò hiển thị trên UI
+ROLE_ADMIN: Quản trị viên
+ROLE_STAFF: Thủ kho
+ROLE_ACCOUNTANT: Kế toán
